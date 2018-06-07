@@ -160,7 +160,7 @@ var Node = function( scene )
     this.symbolSprite.position.x = pos.x;
     this.symbolSprite.position.y = pos.y;
     this.symbolSprite.position.z = pos.z + this.posOffsetSymbolZ;
-
+    
     this.spriteMaterial.color = this.online ? CONTROLS.nodeColor : CONTROLS.nodeColorOff;
     
     this.nameMaterial.color = this.online ? CONTROLS.nodeColor : CONTROLS.nodeColorOff;
